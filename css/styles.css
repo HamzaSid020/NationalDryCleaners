@@ -1090,6 +1090,17 @@ label {
 
 /*------------ Components ---------------- */
 /*------------ header ---------------- */
+
+.heading-video {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800; /* Extra Bold */
+}
+
+.subheading-video {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700; /* Bold */
+}
+
 .tf-top-bar_wrap {
   padding: 8px 0px;
 }

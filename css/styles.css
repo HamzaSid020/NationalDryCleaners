@@ -1094,11 +1094,13 @@ label {
 .heading-video {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800; /* Extra Bold */
+  color: #efefe8ff;
 }
 
 .subheading-video {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700; /* Bold */
+  font-weight: 300; /* Bold */
+  color: #efefe8ff;
 }
 
 .tf-top-bar_wrap {
@@ -1300,7 +1302,7 @@ label {
   position: relative;
 }
 #header .nav-icon .nav-icon-item:hover {
-  color: #db1215;
+  color: #fe0000ff;
 }
 #header .nav-icon .count-box {
   position: absolute;
@@ -1319,8 +1321,8 @@ label {
   z-index: 2;
   top: -8px;
   right: -10px;
-  color: #ffffff;
-  background-color: #db1215;
+  color: #efefe8ff;
+  background-color: #fe0000ff;
 }
 
 .header-absolute {
@@ -1345,7 +1347,7 @@ label {
 .box-nav-ul .sub-menu {
   pointer-events: none;
   position: absolute;
-  background-color: #ffffff;
+  background-color: #efefe8ff;
   min-width: 268px;
   z-index: 999;
   visibility: hidden;
@@ -1735,13 +1737,13 @@ label {
 
 .header-white .box-nav-ul .item-link,
 .header-white .nav-icon .nav-icon-item {
-  color: #ffffff;
+  color: #efefe8ff;
 }
 .header-white .box-nav-ul .item-link::before {
-  background-color: #ffffff !important;
+  background-color: #efefe8ff !important;
 }
 .header-white .btn-mobile svg path {
-  fill: #ffffff;
+  fill: #efefe8ff;
 }
 
 header {
@@ -1754,15 +1756,15 @@ header {
   -o-transition: 0.15s ease-out;
   transition: 0.15s ease-out;
   z-index: 888;
-  background-color: #ffffff;
+  background-color: #efefe8ff;
 }
 header.header-bg {
-  background-color: #ffffff;
+  background-color: #efefe8ff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .header-white.header-bg {
-  background-color: #c4b3b3;
+  background-color: #6dac4fff;
 }
 
 /*------------ footer ---------------- */
@@ -2793,13 +2795,15 @@ header.header-bg {
 
 .fill-outline-light {
   background-color: transparent;
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 20%;
+  color: #efefe8ff;
 }
 .fill-outline-light:hover {
-  color: rgb(0, 0, 0);
+  color:#efefe8ff;
+  border-radius: 20%;
   border-color: #ffffff;
-  background-color: #ffffff;
+  background-color: #fe0000ff;
 }
 
 .btn-line {

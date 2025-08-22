@@ -421,6 +421,65 @@
         </section>
         <!-- /Testimonial -->
 
+        <!-- brand -->
+        <section class="flat-spacing-1">
+            <div class="container">
+                <div class="flat-title wow fadeInUp text-center mb-4" data-wow-delay="0s">
+                    <span class="title">Our Partners</span>
+                </div>
+                <div class="swiper tf-sw-brand" data-loop="true" data-play="true" data-preview="6" data-tablet="3"
+                    data-mobile="2" data-space-lg="0" data-space-md="0" data-autoplay="3000" data-speed="2000"
+                    style="height: 80px;">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="brand-item"
+                                style="height: 80px; display: flex; align-items: center; justify-content: center;">
+                                <img class="lazyload" data-src="assets/bmk promotion.jpg" src="assets/bmk promotion.jpg"
+                                    alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item"
+                                style="height: 80px; display: flex; align-items: center; justify-content: center;">
+                                <img class="lazyload" data-src="assets/Brocode-1.png" src="assets/Brocode-1.png"
+                                    alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item"
+                                style="height: 80px; display: flex; align-items: center; justify-content: center;">
+                                <img class="lazyload" data-src="assets/ctv logo.png" src="assets/ctv logo.png"
+                                    alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item"
+                                style="height: 80px; display: flex; align-items: center; justify-content: center;">
+                                <img class="lazyload" data-src="assets/bmk promotion.jpg" src="assets/bmk promotion.jpg"
+                                    alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item"
+                                style="height: 80px; display: flex; align-items: center; justify-content: center;">
+                                <img class="lazyload" data-src="assets/Brocode-1.png" src="assets/Brocode-1.png"
+                                    alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item"
+                                style="height: 80px; display: flex; align-items: center; justify-content: center;">
+                                <img class="lazyload" data-src="assets/ctv logo.png" src="assets/ctv logo.png"
+                                    alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sw-dots style-2 sw-pagination-brand justify-content-center"></div>
+            </div>
+        </section>
+        <!-- /brand -->
+
         <!-- /Marquee -->
         <!-- Blogs post -->
         <section class="flat-spacing-14">
@@ -587,65 +646,6 @@
             </div>
         </section>
         <!-- /Blogs post -->
-
-        <!-- brand -->
-        <section class="flat-spacing-1">
-            <div class="container">
-                <div class="flat-title wow fadeInUp text-center mb-4" data-wow-delay="0s">
-                    <span class="title">Our Partners</span>
-                </div>
-                <div class="swiper tf-sw-brand" data-loop="true" data-play="true" data-preview="6" data-tablet="3"
-                    data-mobile="2" data-space-lg="0" data-space-md="0" data-autoplay="3000" data-speed="2000"
-                    style="height: 80px;">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="brand-item"
-                                style="height: 80px; display: flex; align-items: center; justify-content: center;">
-                                <img class="lazyload" data-src="assets/bmk promotion.jpg" src="assets/bmk promotion.jpg"
-                                    alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item"
-                                style="height: 80px; display: flex; align-items: center; justify-content: center;">
-                                <img class="lazyload" data-src="assets/Brocode-1.png" src="assets/Brocode-1.png"
-                                    alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item"
-                                style="height: 80px; display: flex; align-items: center; justify-content: center;">
-                                <img class="lazyload" data-src="assets/ctv logo.png" src="assets/ctv logo.png"
-                                    alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item"
-                                style="height: 80px; display: flex; align-items: center; justify-content: center;">
-                                <img class="lazyload" data-src="assets/bmk promotion.jpg" src="assets/bmk promotion.jpg"
-                                    alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item"
-                                style="height: 80px; display: flex; align-items: center; justify-content: center;">
-                                <img class="lazyload" data-src="assets/Brocode-1.png" src="assets/Brocode-1.png"
-                                    alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item"
-                                style="height: 80px; display: flex; align-items: center; justify-content: center;">
-                                <img class="lazyload" data-src="assets/ctv logo.png" src="assets/ctv logo.png"
-                                    alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="sw-dots style-2 sw-pagination-brand justify-content-center"></div>
-            </div>
-        </section>
-        <!-- /brand -->
 
     </main>
 

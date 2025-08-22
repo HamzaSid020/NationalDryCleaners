@@ -114,7 +114,7 @@
     </div>
 
     <!-- Header Include -->
-    <?php include 'includes/header.html'; ?>
+    <?php include 'includes/header-home.html'; ?>
 
     <main>
         <section class="tf-slideshow slider-effect-fade slider-video position-relative">

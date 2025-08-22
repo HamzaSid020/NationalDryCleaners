@@ -1764,7 +1764,7 @@ header.header-bg {
 }
 
 .header-white.header-bg {
-  background-color: #6dac4fff;
+  background-color: #0A5E2AFF;
 }
 
 /*------------ footer ---------------- */
@@ -1772,14 +1772,14 @@ header.header-bg {
   padding-top: 40px;
   padding-bottom: 40px;
   position: relative;
-  background-color: #6dac4fff;
+  background-color: #0A5E2AFF;
 }
 .footer .footer-wrap .footer-body::before {
   position: absolute;
   content: "";
   top: 0;
   left: 50%;
-  background-color: #6dac4fff;
+  background-color: #0A5E2AFF;
   height: 1px;
   width: 100%;
   max-width: 1440px;

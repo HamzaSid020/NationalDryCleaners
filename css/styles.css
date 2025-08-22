@@ -11065,6 +11065,23 @@ blockquote .text {
   gap: 10px;
 }
 
+.banner-wrapper {
+  position: relative; 
+}
+
+.book-now-header-image {
+  max-height: 300px !important;
+}
+
+.banner-wrapper::after {
+  content: "";
+  position: absolute;
+  inset: 0; 
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0));
+  pointer-events: none; 
+}
+
+
 @keyframes tf-ani-flash {
   50%, from, to {
     opacity: 1;

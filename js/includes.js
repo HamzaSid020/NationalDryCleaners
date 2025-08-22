@@ -26,57 +26,16 @@ class IncludeManager {
     static async initializePage() {
         // Load all components
         await this.loadMultipleComponents([
-            { elementId: 'loader-placeholder', filePath: 'includes/loader.html' },
+
             { elementId: 'header-placeholder', filePath: 'includes/header.html' },
             { elementId: 'footer-placeholder', filePath: 'includes/footer.html' }
         ]);
-
-        // Initialize loader functionality
-        this.initializeLoader();
 
         // Highlight active navigation item
         this.highlightActiveNav();
     }
 
-    static initializeLoader() {
-        const logoLoader = document.getElementById('logoLoader');
-        const body = document.body;
-        
-        if (!logoLoader) return;
 
-        // Add loading class to body
-        body.classList.add('loading');
-        
-        // Minimum display time for loader (1.5 seconds)
-        const minDisplayTime = 1500;
-        const startTime = Date.now();
-        
-        function hideLoader() {
-            const elapsedTime = Date.now() - startTime;
-            const remainingTime = Math.max(0, minDisplayTime - elapsedTime);
-            
-            setTimeout(function() {
-                // Add fade-out class
-                logoLoader.classList.add('fade-out');
-                
-                // Remove loader after fade animation completes
-                setTimeout(function() {
-                    logoLoader.style.display = 'none';
-                    body.classList.remove('loading');
-                }, 800); // Match the CSS transition duration
-            }, remainingTime);
-        }
-        
-        // Hide loader when page is fully loaded
-        if (document.readyState === 'complete') {
-            hideLoader();
-        } else {
-            window.addEventListener('load', hideLoader);
-        }
-        
-        // Fallback: Hide loader after 3 seconds maximum
-        setTimeout(hideLoader, 3000);
-    }
 
     static highlightActiveNav() {
         // Get current page path

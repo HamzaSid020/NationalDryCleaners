@@ -22,57 +22,122 @@
     <link rel="shortcut icon" href="images/logo/favicon.png">
     <link rel="apple-touch-icon-precomposed" href="images/logo/favicon.png">
 
-    <!-- Logo Loader Styles -->
+    <!-- Active Navigation Styles -->
     <style>
-           .menu-item.active .item-link,
-        .tf-btn.active {
-            color: #ffd700 !important;
-            font-weight: 600;
+        /* Logo Loader Styles */
+        .logo-loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            opacity: 1;
+            animation: fadeOutLoader 1s ease-in-out 2s forwards;
+            /* fade out after 2s */
         }
-        
-        .menu-item.active .item-link::after {
-            content: '';
-            position: absolute;
-            bottom: -5px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 20px;
-            height: 2px;
-            background: #ffd700;
+
+        .logo-loader-content {
+            text-align: center;
+            animation: logoPulse 2s ease-in-out infinite;
+        }
+
+        .logo-loader img {
+            width: 200px;
+            height: auto;
+            max-width: 90vw;
+            filter: grayscale(0%);
+            transition: all 0.3s ease;
+        }
+
+        .logo-loader-text {
+            margin-top: 15px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            color: #333;
+            letter-spacing: 1px;
+            opacity: 0.7;
+        }
+
+        @keyframes logoPulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+
+            50% {
+                transform: scale(1.05);
+                opacity: 0.8;
+            }
+        }
+
+        /* Fade out loader automatically */
+        @keyframes fadeOutLoader {
+            0% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+                pointer-events: none;
+            }
+        }
+
+        /* Mobile optimizations */
+        @media (max-width: 768px) {
+            .logo-loader img {
+                width: 150px;
+            }
+
+            .logo-loader-text {
+                font-size: 16px;
+                margin-top: 12px;
+            }
         }
     </style>
 </head>
 
 <body>
-    <!-- Loader Placeholder -->
-    <div id="loader-placeholder"></div>
+    <!-- Logo Loader -->
+    <div class="logo-loader" id="logoLoader">
+        <div class="logo-loader-content">
+            <img src="images/logo/logo.png" alt="National Dry Cleaners" />
+            <div class="logo-loader-text">National Dry Cleaners</div>
+        </div>
+    </div>
 
-    <!-- Header Placeholder -->
-    <div id="header-placeholder"></div>
-
+    <!-- Header Include -->
+    <?php include 'includes/header.html'; ?>
 
     <main>
         <section class="tf-slideshow slider-effect-fade slider-video position-relative">
             <div class="wrap-slider">
-              <video src="images/slider/slider-video.mp4" autoplay muted playsinline loop></video>
-              <div class="box-content">
-                <div class="container">
-                  <h1 class="fade-item fade-item-2 heading-video">
-                    The Cleaner<br> Superstore
-                  </h1>
-                  <p class="fade-item fade-item-1 subheading-video tagline">
-                    Trusted since Lahore, now serving Canada 🍁
-                  </p>
-                  <div class="mt-3 d-flex flex-column align-items-start gap-12">
-                    <a href="book-now.html"
-                       class="fade-item fade-item-3 tf-btn text-white" style="border: 2px solid white; background: transparent; padding: 12px 24px; text-decoration: none; border-radius: 4px;">
-                      <span>Book Now</span>
-                    </a>
-                  </div>
+                <video src="images/slider/slider-video.mp4" autoplay muted playsinline loop></video>
+                <div class="box-content">
+                    <div class="container">
+                        <h1 class="fade-item fade-item-2 heading-video">
+                            The Cleaner<br> Superstore
+                        </h1>
+                        <p class="fade-item fade-item-1 subheading-video tagline">
+                            Trusted since Lahore, now serving Canada 🍁
+                        </p>
+                        <div class="mt-3 d-flex flex-column align-items-start gap-12">
+                            <a href="book-now.html" class="fade-item fade-item-3 tf-btn text-white"
+                                style="border: 2px solid white; background: transparent; padding: 12px 24px; text-decoration: none; border-radius: 4px;">
+                                <span>Book Now</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </section>
+        </section>
 
         <!-- Marquee -->
         <div class="tf-marquee marquee-sm bg_dark">
@@ -225,7 +290,8 @@
                         </div>
                     </div>
                     <div class="tf-image-wrap wow fadeInUp" data-wow-delay="0s">
-                        <img class="lazyload" data-src="images/collections/collection-40.jpg" src="images/collections/collection-40.jpg" alt="services-image">
+                        <img class="lazyload" data-src="images/collections/collection-40.jpg"
+                            src="images/collections/collection-40.jpg" alt="services-image">
                     </div>
                 </div>
             </div>
@@ -244,12 +310,12 @@
                         <h2 class="sub-heading text-uppercase fw-7 text-start">The Process</h2>
                         <div class="heading text-start">Every step with love & care</div>
                         <p class="description text-start">
-                             • Inspection & tagging <br>
-                             • Stain treatment <br>
-                             • Cleaning (dry, wet or steam) <br>
-                             • Expert finishing & pressing <br>
-                             • Quality check <br>
-                             • Ready for pickup or delivery
+                            • Inspection & tagging <br>
+                            • Stain treatment <br>
+                            • Cleaning (dry, wet or steam) <br>
+                            • Expert finishing & pressing <br>
+                            • Quality check <br>
+                            • Ready for pickup or delivery
                         </p>
                     </div>
                 </div>
@@ -381,7 +447,8 @@
                                     </div>
                                     <div class="article-content">
                                         <div class="article-title">
-                                            <a href="blog-detail.html" class="">How to care for delicate fabrics at home</a>
+                                            <a href="blog-detail.html" class="">How to care for delicate fabrics at
+                                                home</a>
                                         </div>
                                         <div class="article-btn">
                                             <a href="blog-detail.html" class="tf-btn btn-line fw-6">Read more<i
@@ -427,7 +494,8 @@
                                     </div>
                                     <div class="article-content">
                                         <div class="article-title">
-                                            <a href="blog-detail.html" class="">Stain removal guide: Coffee, wine, oil</a>
+                                            <a href="blog-detail.html" class="">Stain removal guide: Coffee, wine,
+                                                oil</a>
                                         </div>
                                         <div class="article-btn">
                                             <a href="blog-detail.html" class="tf-btn btn-line fw-6">Read more<i
@@ -450,7 +518,8 @@
                                     </div>
                                     <div class="article-content">
                                         <div class="article-title">
-                                            <a href="blog-detail.html" class="">Seasonal storage: Keep your garments fresh</a>
+                                            <a href="blog-detail.html" class="">Seasonal storage: Keep your garments
+                                                fresh</a>
                                         </div>
                                         <div class="article-btn">
                                             <a href="blog-detail.html" class="tf-btn btn-line fw-6">Read more<i
@@ -473,7 +542,8 @@
                                     </div>
                                     <div class="article-content">
                                         <div class="article-title">
-                                            <a href="blog-detail.html" class="">Dry cleaning vs. wet cleaning explained</a>
+                                            <a href="blog-detail.html" class="">Dry cleaning vs. wet cleaning
+                                                explained</a>
                                         </div>
                                         <div class="article-btn">
                                             <a href="blog-detail.html" class="tf-btn btn-line fw-6">Read more<i
@@ -496,7 +566,8 @@
                                     </div>
                                     <div class="article-content">
                                         <div class="article-title">
-                                            <a href="blog-detail.html" class="">Stain removal guide: Coffee, wine, oil</a>
+                                            <a href="blog-detail.html" class="">Stain removal guide: Coffee, wine,
+                                                oil</a>
                                         </div>
                                         <div class="article-btn">
                                             <a href="blog-detail.html" class="tf-btn btn-line fw-6">Read more<i
@@ -524,42 +595,49 @@
                     <span class="title">Our Partners</span>
                 </div>
                 <div class="swiper tf-sw-brand" data-loop="true" data-play="true" data-preview="6" data-tablet="3"
-                    data-mobile="2" data-space-lg="0" data-space-md="0" data-autoplay="3000" data-speed="2000" style="height: 80px;">
+                    data-mobile="2" data-space-lg="0" data-space-md="0" data-autoplay="3000" data-speed="2000"
+                    style="height: 80px;">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="brand-item" style="height: 80px; display: flex; align-items: center; justify-content: center;">
-                                <img class="lazyload" data-src="assets/bmk promotion.jpg"
-                                    src="assets/bmk promotion.jpg" alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
+                            <div class="brand-item"
+                                style="height: 80px; display: flex; align-items: center; justify-content: center;">
+                                <img class="lazyload" data-src="assets/bmk promotion.jpg" src="assets/bmk promotion.jpg"
+                                    alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="brand-item" style="height: 80px; display: flex; align-items: center; justify-content: center;">
-                                <img class="lazyload" data-src="assets/Brocode-1.png"
-                                    src="assets/Brocode-1.png" alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
+                            <div class="brand-item"
+                                style="height: 80px; display: flex; align-items: center; justify-content: center;">
+                                <img class="lazyload" data-src="assets/Brocode-1.png" src="assets/Brocode-1.png"
+                                    alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="brand-item" style="height: 80px; display: flex; align-items: center; justify-content: center;">
-                                <img class="lazyload" data-src="assets/ctv logo.png"
-                                    src="assets/ctv logo.png" alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
+                            <div class="brand-item"
+                                style="height: 80px; display: flex; align-items: center; justify-content: center;">
+                                <img class="lazyload" data-src="assets/ctv logo.png" src="assets/ctv logo.png"
+                                    alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="brand-item" style="height: 80px; display: flex; align-items: center; justify-content: center;">
-                                <img class="lazyload" data-src="assets/bmk promotion.jpg"
-                                    src="assets/bmk promotion.jpg" alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
+                            <div class="brand-item"
+                                style="height: 80px; display: flex; align-items: center; justify-content: center;">
+                                <img class="lazyload" data-src="assets/bmk promotion.jpg" src="assets/bmk promotion.jpg"
+                                    alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="brand-item" style="height: 80px; display: flex; align-items: center; justify-content: center;">
-                                <img class="lazyload" data-src="assets/Brocode-1.png"
-                                    src="assets/Brocode-1.png" alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
+                            <div class="brand-item"
+                                style="height: 80px; display: flex; align-items: center; justify-content: center;">
+                                <img class="lazyload" data-src="assets/Brocode-1.png" src="assets/Brocode-1.png"
+                                    alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="brand-item" style="height: 80px; display: flex; align-items: center; justify-content: center;">
-                                <img class="lazyload" data-src="assets/ctv logo.png"
-                                    src="assets/ctv logo.png" alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
+                            <div class="brand-item"
+                                style="height: 80px; display: flex; align-items: center; justify-content: center;">
+                                <img class="lazyload" data-src="assets/ctv logo.png" src="assets/ctv logo.png"
+                                    alt="image-brand" style="max-height: 50px; width: auto; object-fit: contain;">
                             </div>
                         </div>
                     </div>
@@ -571,8 +649,18 @@
 
     </main>
 
-   <!-- Footer Placeholder -->
-    <div id="footer-placeholder"></div>
+    <!-- Footer Include -->
+    <?php include 'includes/footer.html'; ?>
+
+    <!-- gotop -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 286.138;">
+            </path>
+        </svg>
+    </div>
+    <!-- /gotop -->
 
     <!-- Javascript -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -586,7 +674,6 @@
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/multiple-modal.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/includes.js"></script>
 
 </body>
 

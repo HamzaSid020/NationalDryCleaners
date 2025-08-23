@@ -665,7 +665,7 @@ label {
   transition: all 0.3s ease;
 }
 .link:hover {
-  color: #db1215 !important;
+  color: #6DAC4FFF !important;
 }
 
 .grid-2 {
@@ -1837,7 +1837,7 @@ header.header-bg {
   margin-bottom: 28px;
 }
 .footer ul.footer-menu-list li a:hover {
-  color: #db1215;
+  color: #6DAC4FFF;
 }
 .footer .footer-newsletter form {
   margin-top: 27px;
@@ -1881,10 +1881,10 @@ header.header-bg {
   background-color: #a1a1a1;
 }
 .footer.background-black .footer-infor > a:hover {
-  color: #db1215;
+  color: #6DAC4FFF;
 }
 .footer.background-black .footer-infor > a:hover::after {
-  background-color: #db1215;
+  background-color: #6DAC4FFF;
 }
 .footer.background-black .footer-heading h6 {
   color: #ffffff;
@@ -15131,6 +15131,16 @@ blockquote .text {
 
 .home-page-images {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+.service-card {
+    background: #fff;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
 /*# sourceMappingURL=styles.css.map */

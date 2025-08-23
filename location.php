@@ -41,11 +41,10 @@
         <!-- page-title -->
 		<section class="tf-slideshow about-us-page position-relative">
 			<div class="banner-wrapper">
-				<img src="assets/NDC-booking-1.jpg" alt="cleaning image" class="book-now-header-image">>
+				<img src="assets/NDC-booking0.jpg" alt="cleaning image" class="book-now-header-image">>
 				<div class="box-content text-center">
 					<div class="container">
-						<div class="heading text-center">Our Store</div>
-
+						<div id = "heading-location" class="heading text-center">Find Us</div>
 					</div>
 				</div>
 			</div>

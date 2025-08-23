@@ -858,6 +858,8 @@ label {
 
 .mb_24 {
   margin-bottom: 24px;
+  font-family: "Sora";
+  color: #0A5E2AFF;
 }
 
 .mb_30 {
@@ -950,6 +952,7 @@ label {
 .flat-spacing-16 {
   padding-top: 130px;
   padding-bottom: 65px;
+  background-color: #efefe8ff;
 }
 
 .flat-spacing-17 {
@@ -1762,9 +1765,47 @@ header.header-bg {
   background-color: #efefe8ff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
-
-.header-white.header-bg {
+#buttons-book{
+  font-family: "Sora";
+}
+#heading-location{
+  font-family: 'Sora', sans-serif;
+  font-weight: 800; /* Extra Bold */
+  color: #0A5E2AFF;
+  font-size: 35px;
+}
+#heading-booknow{
+  font-family: "Sora";
+  font-weight: 800; /* Extra Bold */
+  color: #0A5E2AFF;
+  font-size: 35px;
+}
+#first-block{
   background-color: #6dac4fff;
+  color:#efefe8ff;
+  font-family: "Sora";
+  font-size:15px;
+}
+#first-block-heading{
+  color: #0A5E2AFF;
+  font-family: "Sora";
+}
+#second-block{
+  background-color: #fe0000ff;
+  color:#efefe8ff;
+  font-family: "Sora";
+  font-size:15px;
+}
+#second-block-heading{
+  color: #0A5E2AFF;
+  font-family: "Sora";
+}
+#second1-block-heading{
+color: #efefe8ff;
+  font-family: "Sora";
+}
+.header-white.header-bg {
+  background-color: #0A5E2AFF;
 }
 
 /*------------ footer ---------------- */
@@ -1797,6 +1838,7 @@ header.header-bg {
 
 .footer .footer-wrap .footer-bottom .footer-bottom-wrap .footer-menu_item {
   color: rgb(84, 84, 84);
+  font-family: "Sora";
 }
 .footer.has-border-full .footer-body::before {
   left: 0;
@@ -1811,11 +1853,13 @@ header.header-bg {
 }
 .footer .footer-heading {
   margin-bottom: 25px;
+  font-family: "Sora";
 }
 .footer .footer-heading h6 {
   font-size: 18px;
   font-weight: 500;
   line-height: 18px;
+  font-family: "Sora";
 }
 .footer .footer-heading-moblie {
   display: none;
@@ -1832,9 +1876,11 @@ header.header-bg {
 .footer .footer-infor ul li p a {
   color: rgb(84, 84, 84);
   font-weight: 700;
+  font-family: "Sora";
 }
 .footer .footer-infor > a {
   margin-bottom: 28px;
+  font-family: "Sora";
 }
 .footer ul.footer-menu-list li a:hover {
   color: #db1215;
@@ -1852,11 +1898,13 @@ header.header-bg {
   position: absolute;
   top: 7px;
   right: 8px;
+  font-family: "Sora";
 }
 .footer .footer-newsletter form .button-submit button {
   height: 41px;
   padding-top: 0;
   padding-bottom: 0;
+  font-family: "Sora";
 }
 .footer.background-black {
   background-color: rgb(0, 0, 0);
@@ -12405,9 +12453,11 @@ blockquote .text {
 
   .tf-ourstore-content {
     padding-left: 93px;
+    font-family: "Sora";
   }
   .tf-ourstore-content.pl-124 {
     padding-left: 124px;
+    font-family: "Sora";
   }
 
   .tf-accordion-wrap > .content {

@@ -289,12 +289,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tf-image-wrap wow fadeInUp" data-wow-delay="0s">
-    <video autoplay muted loop playsinline class="lazyload">
-        <source src="assets/NDC-aboutusvid1.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</div>
+                   <div class="tf-image-wrap wow fadeInUp" data-wow-delay="0s">
+                        <img class="lazyload" data-src="images/collections/collection-40.jpg"
+                            src="images/collections/collection-40.jpg" alt="services-image">
+                   </div>
 
             </div>
         </section>

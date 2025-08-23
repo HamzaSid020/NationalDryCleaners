@@ -530,6 +530,7 @@ video {
 
 .bg_grey-2 {
   background-color: #fbf7f0;
+  font-family: "Sora", sans-serif;
 }
 
 .bg_grey-3 {
@@ -1802,6 +1803,15 @@ header.header-bg {
 }
 #second1-block-heading{
 color: #efefe8ff;
+  font-family: "Sora";
+}
+#heading-aboutus{
+  font-family: 'Sora', sans-serif;
+  font-weight: 300; /* Extra Bold */
+  color: #efefe8ff;
+  font-size: 35px;
+}
+#box{
   font-family: "Sora";
 }
 .header-white.header-bg {
@@ -9916,11 +9926,13 @@ blockquote .text {
 .flat-title .title {
   font-size: 22px;
   line-height: 26.4px;
+  font-family: "Sora";
 }
 .flat-title .sub-title {
   font-size: 14px;
   line-height: 20px;
   text-align: center;
+  font-family: "Sora";
 }
 .flat-title.mb_1 {
   margin-bottom: 30px;
@@ -11925,6 +11937,7 @@ blockquote .text {
   .flat-title .sub-title {
     font-size: 16px;
     line-height: 22px;
+    
   }
 
   .tf-loading-default.style-2 {
@@ -13561,7 +13574,15 @@ blockquote .text {
   #compare_color .modal-dialog .modal-content {
     padding: 20px;
   }
-
+#head{
+  color:#0A5E2AFF;
+}
+#heading2{
+  font-family: "Sora";
+}
+#heading3{
+  font-family: "Sora";
+}
   .tf-compare-color-item {
     padding: 14px 15px 20px;
     min-width: 280px;

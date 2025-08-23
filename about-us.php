@@ -42,8 +42,8 @@
             <div class="banner-wrapper">
                 <video src="images/slider/slider-video.mp4" autoplay muted playsinline loop></video>
                 <div class="box-content text-center">
-                    <div class="container">
-                        <div class="text text-white">It all began in<br class="d-xl-block d-none">1967...</div>
+                    <div id = "heading-aboutus" class="container">
+                        <div class="text">It all began in<br class="d-xl-block d-none">1967...</div>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@
         <section class="flat-spacing-9">
             <div class="container">
                 <div class="flat-title my-0">
-                    <span class="title">We are National Dry Cleaners</span>
+                    <span id = "head" class="title">We are National Dry Cleaners</span>
                     <p class="sub-title text_black-2">
                         Established in 1967 in Lahore, we now bring decades of premium garment care to Canada.<br
                             class="d-xl-block d-none">
@@ -73,13 +73,13 @@
             <div class="container">
                 <div class="tf-grid-layout md-col-2 tf-img-with-text style-4">
                     <div class="tf-image-wrap">
-                        <img class="lazyload w-100" data-src="images/collections/collection-69.jpg"
-                            src="images/collections/collection-69.jpg" alt="collection-img">
+                        <img class="lazyload w-100" data-src="assets/NDC-aboutus-3.jpg"
+                            src="assets/NDC-aboutus-3.jpg" alt="collection-img">
                     </div>
                     <div class="tf-content-wrap px-0 d-flex justify-content-center w-100">
                         <div>
-                            <div class="heading">Established — 1967</div>
-                            <div class="text">
+                            <div id="heading2" class="heading">Established — 1967</div>
+                            <div id="heading2"class="text">
                                 Founded in Lahore in 1967, National Dry Cleaners built its reputation on precision care
                                 and personal service. Today, our team brings that same craftsmanship to Canada,
                                 delivering
@@ -95,8 +95,8 @@
                 <div class="tf-grid-layout md-col-2 tf-img-with-text style-4">
                     <div class="tf-content-wrap px-0 d-flex justify-content-center w-100">
                         <div>
-                            <div class="heading">Our mission</div>
-                            <div class="text">
+                            <div id = "heading3" class="heading">Our Mission</div>
+                            <div id = "heading3" class="text">
                                 To provide trusted, high-quality cleaning and restoration—safely and sustainably.<br
                                     class="d-xl-block d-none">
                                 We treat every piece with the right method (dry, wet, or steam), professional stain
@@ -108,14 +108,14 @@
                     <div class="grid-img-group">
                         <div class="tf-image-wrap box-img item-1">
                             <div class="img-style">
-                                <img class="lazyload" src="images/collections/collection-71.jpg"
-                                    data-src="images/collections/collection-71.jpg" alt="img-slider">
+                                <img class="lazyload" src="assets/NDC-aboutus-2.jpg"
+                                    data-src="assets/NDC-aboutus-2.jpg" alt="img-slider">
                             </div>
                         </div>
                         <div class="tf-image-wrap box-img item-2">
                             <div class="img-style">
-                                <img class="lazyload" src="images/collections/collection-70.jpg"
-                                    data-src="images/collections/collection-70.jpg" alt="img-slider">
+                                <img class="lazyload" src="assets/NDC-aboutus-1.jpg"
+                                    data-src="assets/NDC-aboutus-1.jpg" alt="img-slider">
                             </div>
                         </div>
                     </div>
@@ -126,7 +126,7 @@
         <!-- iconbox -->
         <section>
             <div class="container">
-                <div class="bg_grey-2 radius-10 flat-wrap-iconbox">
+                <div id = "box" class="bg_grey-2 radius-10 flat-wrap-iconbox">
                     <div class="flat-title lg">
                         <span class="title fw-5">Quality is our priority</span>
                         <div>

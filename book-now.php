@@ -60,8 +60,8 @@
                 <div class="banner-wrapper">
                     <img src="assets/NDC-booking-1.jpg" alt="cleaning image" class="book-now-header-image">>
                     <div class="box-content text-center">
-                        <div class="container">
-                            <div class="heading text-center">Book Your Cleaning</div>
+                        <div id = "heading-booknow" class="container">
+                            <div class="heading text-center">Book Your Cleaning</div> <br>
                             <p class="text-center text_white-5">Secure bookings, payments, and order tracking powered by
                                 CleanCloud.</p>
                         </div>
@@ -77,7 +77,7 @@
                             <iframe title="CleanCloud Booking" src="https://cleancloudapp.com/embedded/"
                                 style="border:0;width:100%;height:100%" allowfullscreen loading="lazy"></iframe>
                         </div>
-                        <div class="d-flex flex-wrap align-items-center gap-12 mt-3">
+                        <div id= "buttons-book" class="d-flex flex-wrap align-items-center gap-12 mt-3">
                             <a href="#" class="tf-btn btn-sm radius-3 btn-fill d-flex align-items-center gap-8">
                                 <!-- Google Play badge placeholder -->
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -104,23 +104,23 @@
             <section class="flat-spacing-12 pt_0">
                 <div class="container">
                     <div class="tf-grid-layout md-col-3 sm-col-1 gap-20">
-                        <div class="bg_grey-2 p-3 radius-10">
-                            <div class="fw-7 mb_6">Why book online?</div>
+                        <div id = "first-block" class="bg_grey-2 p-3 radius-10">
+                            <div id = "first-block-heading" class="fw-7 mb_6">Why book online?</div>
                             <ul class="m-0 ps-3">
                                 <li>Real-time availability and instant confirmation</li>
                                 <li>Secure payments and order tracking</li>
                                 <li>Pick-up and delivery scheduling</li>
                             </ul>
                         </div>
-                        <div class="bg_grey-2 p-3 radius-10">
-                            <div class="fw-7 mb_6">Need help?</div>
-                            <p class="mb_6">Call us at <a href="#">(212) 555-1234</a> or email <a
-                                    href="#">info@nationaldrycleaners.com</a>.</p>
-                            <a href="contact-1.html" class="tf-btn btn-line btn-sm radius-3">Contact us<i
+                        <div  id = "second-block" class="bg_grey-2 p-3 radius-10">
+                            <div  id = "second-block-heading" class="fw-7 mb_6">Need help?</div>
+                            <p class="mb_6">Call us at <a id = "second1-block-heading" href="#">(212) 555-1234</a> or email <a
+                            id = "second1-block-heading"  href="#">info@nationaldrycleaners.com</a>.</p> <br>
+                            <a href="contact-1.html" id = "second1-block-heading" class="tf-btn btn-line btn-sm radius-3">Contact us<i
                                     class="icon icon-arrow1-top-left"></i></a>
                         </div>
-                        <div class="bg_grey-2 p-3 radius-10">
-                            <div class="fw-7 mb_6">Popular services</div>
+                        <div id = "first-block" class="bg_grey-2 p-3 radius-10">
+                            <div id = "first-block-heading" class="fw-7 mb_6">Popular services</div>
                             <ul class="m-0 ps-3">
                                 <li>Dry Cleaning & Steam Laundry</li>
                                 <li>Bridal Wear Cleaning & Restoration</li>

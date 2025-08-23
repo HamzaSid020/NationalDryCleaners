@@ -530,6 +530,7 @@ video {
 
 .bg_grey-2 {
   background-color: #fbf7f0;
+  font-family: "Sora", sans-serif;
 }
 
 .bg_grey-3 {
@@ -665,7 +666,7 @@ label {
   transition: all 0.3s ease;
 }
 .link:hover {
-  color: #6DAC4FFF !important;
+  color: #db1215 !important;
 }
 
 .grid-2 {
@@ -858,6 +859,8 @@ label {
 
 .mb_24 {
   margin-bottom: 24px;
+  font-family: "Sora";
+  color: #0A5E2AFF;
 }
 
 .mb_30 {
@@ -950,6 +953,7 @@ label {
 .flat-spacing-16 {
   padding-top: 130px;
   padding-bottom: 65px;
+  background-color: #efefe8ff;
 }
 
 .flat-spacing-17 {
@@ -1762,7 +1766,54 @@ header.header-bg {
   background-color: #efefe8ff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
-
+#buttons-book{
+  font-family: "Sora";
+}
+#heading-location{
+  font-family: 'Sora', sans-serif;
+  font-weight: 800; /* Extra Bold */
+  color: #0A5E2AFF;
+  font-size: 35px;
+}
+#heading-booknow{
+  font-family: "Sora";
+  font-weight: 800; /* Extra Bold */
+  color: #0A5E2AFF;
+  font-size: 35px;
+}
+#first-block{
+  background-color: #6dac4fff;
+  color:#efefe8ff;
+  font-family: "Sora";
+  font-size:15px;
+}
+#first-block-heading{
+  color: #0A5E2AFF;
+  font-family: "Sora";
+}
+#second-block{
+  background-color: #fe0000ff;
+  color:#efefe8ff;
+  font-family: "Sora";
+  font-size:15px;
+}
+#second-block-heading{
+  color: #0A5E2AFF;
+  font-family: "Sora";
+}
+#second1-block-heading{
+color: #efefe8ff;
+  font-family: "Sora";
+}
+#heading-aboutus{
+  font-family: 'Sora', sans-serif;
+  font-weight: 300; /* Extra Bold */
+  color: #efefe8ff;
+  font-size: 35px;
+}
+#box{
+  font-family: "Sora";
+}
 .header-white.header-bg {
   background-color: #0A5E2AFF;
 }
@@ -1772,14 +1823,14 @@ header.header-bg {
   padding-top: 40px;
   padding-bottom: 40px;
   position: relative;
-  background-color: #0A5E2AFF;
+  background-color: #6dac4fff;
 }
 .footer .footer-wrap .footer-body::before {
   position: absolute;
   content: "";
   top: 0;
   left: 50%;
-  background-color: #0A5E2AFF;
+  background-color: #6dac4fff;
   height: 1px;
   width: 100%;
   max-width: 1440px;
@@ -1797,6 +1848,7 @@ header.header-bg {
 
 .footer .footer-wrap .footer-bottom .footer-bottom-wrap .footer-menu_item {
   color: rgb(84, 84, 84);
+  font-family: "Sora";
 }
 .footer.has-border-full .footer-body::before {
   left: 0;
@@ -1811,11 +1863,13 @@ header.header-bg {
 }
 .footer .footer-heading {
   margin-bottom: 25px;
+  font-family: "Sora";
 }
 .footer .footer-heading h6 {
   font-size: 18px;
   font-weight: 500;
   line-height: 18px;
+  font-family: "Sora";
 }
 .footer .footer-heading-moblie {
   display: none;
@@ -1832,12 +1886,14 @@ header.header-bg {
 .footer .footer-infor ul li p a {
   color: rgb(84, 84, 84);
   font-weight: 700;
+  font-family: "Sora";
 }
 .footer .footer-infor > a {
   margin-bottom: 28px;
+  font-family: "Sora";
 }
 .footer ul.footer-menu-list li a:hover {
-  color: #6DAC4FFF;
+  color: #db1215;
 }
 .footer .footer-newsletter form {
   margin-top: 27px;
@@ -1852,11 +1908,13 @@ header.header-bg {
   position: absolute;
   top: 7px;
   right: 8px;
+  font-family: "Sora";
 }
 .footer .footer-newsletter form .button-submit button {
   height: 41px;
   padding-top: 0;
   padding-bottom: 0;
+  font-family: "Sora";
 }
 .footer.background-black {
   background-color: rgb(0, 0, 0);
@@ -1881,10 +1939,10 @@ header.header-bg {
   background-color: #a1a1a1;
 }
 .footer.background-black .footer-infor > a:hover {
-  color: #6DAC4FFF;
+  color: #db1215;
 }
 .footer.background-black .footer-infor > a:hover::after {
-  background-color: #6DAC4FFF;
+  background-color: #db1215;
 }
 .footer.background-black .footer-heading h6 {
   color: #ffffff;
@@ -9868,11 +9926,13 @@ blockquote .text {
 .flat-title .title {
   font-size: 22px;
   line-height: 26.4px;
+  font-family: "Sora";
 }
 .flat-title .sub-title {
   font-size: 14px;
   line-height: 20px;
   text-align: center;
+  font-family: "Sora";
 }
 .flat-title.mb_1 {
   margin-bottom: 30px;
@@ -11877,6 +11937,7 @@ blockquote .text {
   .flat-title .sub-title {
     font-size: 16px;
     line-height: 22px;
+    
   }
 
   .tf-loading-default.style-2 {
@@ -12405,9 +12466,11 @@ blockquote .text {
 
   .tf-ourstore-content {
     padding-left: 93px;
+    font-family: "Sora";
   }
   .tf-ourstore-content.pl-124 {
     padding-left: 124px;
+    font-family: "Sora";
   }
 
   .tf-accordion-wrap > .content {
@@ -13511,7 +13574,15 @@ blockquote .text {
   #compare_color .modal-dialog .modal-content {
     padding: 20px;
   }
-
+#head{
+  color:#0A5E2AFF;
+}
+#heading2{
+  font-family: "Sora";
+}
+#heading3{
+  font-family: "Sora";
+}
   .tf-compare-color-item {
     padding: 14px 15px 20px;
     min-width: 280px;
@@ -15133,14 +15204,5 @@ blockquote .text {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
 }
 
-.service-card {
-    background: #fff;
-    border-radius: 12px;
-    transition: all 0.3s ease;
-}
-.service-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-}
-
 /*# sourceMappingURL=styles.css.map */
+

@@ -9,7 +9,7 @@
     <meta name="author" content="themesflat.com">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- font -->
+    <!-- font --> 
     <link rel="stylesheet" href="fonts/fonts.css">
     <!-- Icons -->
     <link rel="stylesheet" href="fonts/font-icons.css">

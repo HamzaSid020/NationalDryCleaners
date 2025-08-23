@@ -56,9 +56,17 @@
         <section class="flat-spacing-16">
             <div class="container">
                 <div class="tf-grid-layout md-col-2">
-                    <div class="tf-ourstore-img">
-                        <img class="lazyload" data-src="images/shop/store/ourstore2.png" src="images/shop/store/ourstore2.png" alt="our-store">
-                    </div>
+                <div class="tf-ourstore-img">
+                    <iframe 
+                    width="100%" 
+                    height="500" 
+                    frameborder="0" 
+                    scrolling="no" 
+                    marginheight="0" 
+                    marginwidth="0" 
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=3%20Marvin%20Ave,%20Oakville,%20ON%20L6H%200Z6+(National%20Dry%20Cleaners)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                    </iframe>
+                </div>
                     <div class="tf-ourstore-content">
                         <h5 class="mb_24">National Dry Cleaners — Oakville</h5>
                         <div class="mb_20">

@@ -15204,5 +15204,22 @@ blockquote .text {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
 }
 
+.card-product .product-img {
+    width: 100%;
+    height: 180px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+.card-product .img-product {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures images fill while maintaining aspect ratio */
+}
+
 /*# sourceMappingURL=styles.css.map */
 

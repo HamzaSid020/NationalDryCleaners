@@ -1,5 +1,5 @@
 <?php
-// Array of services/products
+// Array of services
 $services = [
     ["image" => "assets/NDC-service-1.jpg", "title" => "Dry Cleaning & Steam Laundry", "price" => 10, "badge" => "Best Seller"],
     ["image" => "assets/NDC-service-2.jpg", "title" => "Wet Cleaning", "price" => 8, "badge" => "Popular"],
@@ -246,7 +246,7 @@ function buildQueryString($page, $sort) {
             <section class="hero-section">
                 <div class="hero-overlay"></div>
                 <div class="hero-content">
-                    <h1 class="heading display-4 fw-bold">Our Services</h1>
+                    <h1 class="heading display-4 fw-bold text-white">Our Services</h1>
                     <p class="lead">Comprehensive care for garments, home, and specialty items. Professional service you
                         can trust.</p>
                 </div>
@@ -269,12 +269,6 @@ function buildQueryString($page, $sort) {
                             </li>
                             <li class="tf-view-layout-switch sw-layout-4 active" data-value-grid="grid-4">
                                 <div class="item"><span class="icon icon-grid-4"></span></div>
-                            </li>
-                            <li class="tf-view-layout-switch sw-layout-5" data-value-grid="grid-5">
-                                <div class="item"><span class="icon icon-grid-5"></span></div>
-                            </li>
-                            <li class="tf-view-layout-switch sw-layout-6" data-value-grid="grid-6">
-                                <div class="item"><span class="icon icon-grid-6"></span></div>
                             </li>
                         </ul>
                         <div class="tf-control-sorting d-flex justify-content-end">

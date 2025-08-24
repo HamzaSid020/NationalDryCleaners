@@ -238,7 +238,7 @@ function buildQueryString($page, $sort) {
             <section class="hero-section">
                 <div class="hero-overlay"></div>
                 <div class="hero-content">
-                    <h1 class="heading display-4 fw-bold">Our Services</h1>
+                    <h1 class="heading display-4 fw-bold text-white">Our Services</h1>
                     <p class="lead">Comprehensive care for garments, home, and specialty items. Professional service you
                         can trust.</p>
                 </div>

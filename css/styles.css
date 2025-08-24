@@ -666,7 +666,7 @@ label {
   transition: all 0.3s ease;
 }
 .link:hover {
-  color: #db1215 !important;
+  color: #6DAC4FFF !important;
 }
 
 .grid-2 {
@@ -1824,13 +1824,14 @@ color: #efefe8ff;
   padding-bottom: 40px;
   position: relative;
   background-color: #0A5E2AFF;
+  background-color: #0A5E2AFF;
 }
 .footer .footer-wrap .footer-body::before {
   position: absolute;
   content: "";
   top: 0;
   left: 50%;
-  background-color: #6dac4fff;
+  background-color: #0A5E2AFF;
   height: 1px;
   width: 100%;
   max-width: 1440px;
@@ -1893,7 +1894,7 @@ color: #efefe8ff;
   font-family: "Sora";
 }
 .footer ul.footer-menu-list li a:hover {
-  color: #db1215;
+  color: #6DAC4FFF;
 }
 .footer .footer-newsletter form {
   margin-top: 27px;
@@ -1939,10 +1940,10 @@ color: #efefe8ff;
   background-color: #a1a1a1;
 }
 .footer.background-black .footer-infor > a:hover {
-  color: #db1215;
+  color: #6DAC4FFF;
 }
 .footer.background-black .footer-infor > a:hover::after {
-  background-color: #db1215;
+  background-color: #6DAC4FFF;
 }
 .footer.background-black .footer-heading h6 {
   color: #ffffff;
@@ -15222,4 +15223,5 @@ blockquote .text {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
 

@@ -1,25 +1,25 @@
 <?php
 // Array of services/products
 $services = [
-    ["image" => "images/products/white-4.jpg", "title" => "Dry Cleaning & Steam Laundry", "price" => 10, "badge" => "Best Seller"],
-    ["image" => "images/products/white-4.jpg", "title" => "Wet Cleaning", "price" => 8, "badge" => "Popular"],
-    ["image" => "images/products/white-4.jpg", "title" => "Wash & Fold by Weight", "price" => 5, "badge" => "New"],
-    ["image" => "images/products/white-4.jpg", "title" => "Bridal Wear & Wedding Gown Cleaning & Restoration", "price" => 50, "badge" => "Premium"],
-    ["image" => "images/products/white-4.jpg", "title" => "Alterations & Repairs", "price" => 0, "badge" => "Service"],
-    ["image" => "images/products/white-4.jpg", "title" => "Leather, Suede & Fur Cleaning", "price" => 30, "badge" => "Specialty"],
-    ["image" => "images/products/white-4.jpg", "title" => "Handmade & Synthetic Rug Cleaning", "price" => 40, "badge" => "Specialty"],
-    ["image" => "images/products/white-4.jpg", "title" => "Rug Repairs", "price" => 25, "badge" => "Repair"],
-    ["image" => "images/products/white-4.jpg", "title" => "Steam Upholstery Cleaning", "price" => 35, "badge" => "Popular"],
-    ["image" => "images/products/white-4.jpg", "title" => "Mattress Cleaning", "price" => 40, "badge" => "Healthy Home"],
-    ["image" => "images/products/white-4.jpg", "title" => "Household Items: Bedding, Quilts, Blankets & Comforters", "price" => 12, "badge" => "Home"],
-    ["image" => "images/products/white-4.jpg", "title" => "Curtains & Blinds Cleaning", "price" => 25, "badge" => "Home Decor"],
-    ["image" => "images/products/white-4.jpg", "title" => "Car Interior Steam Cleaning", "price" => 30, "badge" => "Auto"],
-    ["image" => "images/products/white-4.jpg", "title" => "Odour & Smoke Removal", "price" => 20, "badge" => "Restoration"],
-    ["image" => "images/products/white-4.jpg", "title" => "Hockey & Sports Gear Cleaning", "price" => 18, "badge" => "Sports"],
-    ["image" => "images/products/white-4.jpg", "title" => "House Deep Cleaning & Sanitation", "price" => 60, "badge" => "Sanitation"],
-    ["image" => "images/products/white-4.jpg", "title" => "Pakistani/Indian Formal Dress Cleaning & Steam Pressing", "price" => 15, "badge" => "Ethnic Wear"],
-    ["image" => "images/products/white-4.jpg", "title" => "Boat Cleaning", "price" => 55, "badge" => "Recreation"],
-    ["image" => "images/products/white-4.jpg", "title" => "Shoe Repairing and Cleaning", "price" => 10, "badge" => "Footwear"],
+    ["image" => "assets/NDC-service-1.jpg", "title" => "Dry Cleaning & Steam Laundry", "price" => 10, "badge" => "Best Seller"],
+    ["image" => "assets/NDC-service-2.jpg", "title" => "Wet Cleaning", "price" => 8, "badge" => "Popular"],
+    ["image" => "assets/NDC-service-3.jpg", "title" => "Wash & Fold by Weight", "price" => 5, "badge" => "New"],
+    ["image" => "assets/NDC-service-4.jpg", "title" => "Bridal Wear & Wedding Gown Cleaning & Restoration", "price" => 50, "badge" => "Premium"],
+    ["image" => "assets/NDC-service-5.jpg", "title" => "Alterations & Repairs", "price" => 0, "badge" => "Service"],
+    ["image" => "assets/NDC-service-6.jpg", "title" => "Leather, Suede & Fur Cleaning", "price" => 30, "badge" => "Specialty"],
+    ["image" => "assets/NDC-service-7.jpg", "title" => "Handmade & Synthetic Rug Cleaning", "price" => 40, "badge" => "Specialty"],
+    ["image" => "assets/NDC-service-8.jpg", "title" => "Rug Repairs", "price" => 25, "badge" => "Repair"],
+    ["image" => "assets/NDC-services-9.jpg", "title" => "Steam Upholstery Cleaning", "price" => 35, "badge" => "Popular"],
+    ["image" => "assets/NDC-services-10.jpg", "title" => "Mattress Cleaning", "price" => 40, "badge" => "Healthy Home"],
+    ["image" => "assets/NDC-services-11.jpg", "title" => "Household Items: Bedding, Quilts, Blankets & Comforters", "price" => 12, "badge" => "Home"],
+    ["image" => "assets/NDC-services-12.jpg", "title" => "Curtains & Blinds Cleaning", "price" => 25, "badge" => "Home Decor"],
+    ["image" => "assets/NDC-services-13.jpg", "title" => "Car Interior Steam Cleaning", "price" => 30, "badge" => "Auto"],
+    ["image" => "assets/NDC-services-14.jpg", "title" => "Odour & Smoke Removal", "price" => 20, "badge" => "Restoration"],
+    ["image" => "assets/NDC-services-17.jpg", "title" => "Hockey & Sports Gear Cleaning", "price" => 18, "badge" => "Sports"],
+    ["image" => "assets/NDC-services-16.jpg", "title" => "House Deep Cleaning & Sanitation", "price" => 60, "badge" => "Sanitation"],
+    ["image" => "assets/NDC-services-18.jpg", "title" => "Pakistani/Indian Formal Dress Cleaning & Steam Pressing", "price" => 15, "badge" => "Ethnic Wear"],
+    ["image" => "assets/NDC-services-19.jpg", "title" => "Boat Cleaning", "price" => 55, "badge" => "Recreation"],
+    ["image" => "assets/NDC-services-20.jpg", "title" => "Shoe Repairing and Cleaning", "price" => 10, "badge" => "Footwear"],
 ];
 
 // Get sorting option from URL
@@ -217,6 +217,14 @@ function buildQueryString($page, $sort) {
         .tf-dropdown-sort .select-item:last-child a {
             border-radius: 0 0 4px 4px;
         }
+
+        .card-product .product-img img {
+            width: 100%;           /* full width of the card */
+            height: 500px;         /* fixed height for all */
+            object-fit: cover;     /* crop instead of stretch */
+            border-radius: 8px;    /* optional, keep corners smooth */
+        }
+
     </style>
 </head>
 
